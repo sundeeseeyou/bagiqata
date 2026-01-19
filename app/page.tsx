@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Header from "./components/homepage/HeaderPrimary";
+import HeaderPrimary from "./components/homepage/HeaderPrimary";
 
 export default function Home() {
   return (
-    <main className="mx-auto">
-      <Header />
+    <main className="mx-auto h-screen">
+      <HeaderPrimary />
     </main>
   );
 }
