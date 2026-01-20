@@ -1,28 +1,39 @@
 @import "tailwindcss";
+
+/* Configure DaisyUI themes */
 @plugin "daisyui" {
+  /* Available themes: light, dark, cupcake, corporate, etc. */
+  themes:
+    [ "light",
+    "dark",
+    ];
 }
 
+/* Light theme (default) */
 :root {
-  --background: #f9f9f9;
+  --background: #ffffff;
   --foreground: #030303;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
+/* Dark theme when user prefers dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #030303;
-    --foreground: #f6f7f9;
+    --foreground: #f9fafb;
   }
 }
 
+/* Custom theme variables */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+/* Base body styling */
 body {
   background: var(--background);
   color: var(--foreground);
-  /* font-family: Arial, Helvetica, sans-serif; */
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
