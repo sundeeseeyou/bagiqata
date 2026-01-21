@@ -7,7 +7,7 @@ interface QataCardProps {
 
 export default function QataCard({ qata }: QataCardProps) {
   return (
-    <article className="card bg-base-100 shadow-lg hover:shadow-xl transition-shadow duration-300 max-w-2xl mx-auto">
+    <article className="card bg-base-100 shadow-lg border-xs border-white border-2 hover:shadow-xl transition-shadow duration-300 max-w-2xl mx-auto">
       <div className="card-body">
         {/* Author Info */}
         <div className="flex items-center gap-3 mb-4">
