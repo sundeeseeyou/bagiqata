@@ -31,16 +31,17 @@ datasource db {
 
 model User {
   id Int @id @default(autoincrement())
+  username String @unique
   email String @unique
   name String?
   phone String?
+  avatar String?
   qatas Qata[]
 }
 
 model Qata {
   id Int @id @default(autoincrement())
   content String
-  author String
   timestamp DateTime @default(now())
   loves Int @default(0)
   quotes Int @default(0)

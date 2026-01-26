@@ -1,4 +1,4 @@
-import { Qata } from "@/app/lib/_types";
+import { Qata } from "./_types";
 
 export const mockQatas: Qata[] = [
   {

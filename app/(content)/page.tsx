@@ -1,5 +1,5 @@
 import QataFeedList from "@/app/components/single-card/QataFeedList";
-import { mockQatas } from "@/app/lib/mockData";
+import { mockQatas } from "@/app/lib/_mockQatas";
 
 export default function ContentPage() {
   return (
