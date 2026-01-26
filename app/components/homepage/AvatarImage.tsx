@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Qata } from "@/app/lib/types";
+import { Qata } from "@/app/lib/_types";
 
 interface AvatarImageProps {
   qata?: Qata;
