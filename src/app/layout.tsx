@@ -30,8 +30,10 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <HeaderPrimary />
-          <SideNav />
-          <main>{children}</main>
+          <div className="flex flex-1">
+            <SideNav />
+            <main className="flex-1">{children}</main>
+          </div>
         </ThemeProvider>
       </body>
     </html>

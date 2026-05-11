@@ -7,11 +7,11 @@ import AvatarImage from "./AvatarImage";
 export default function HeaderPrimary() {
   return (
     <>
-      <header className="flex items-center justify-between h-16 relative w-full bg-black z-20 shadow-[0px_4px_25px_0px_#0000000D] transition-all border-b-1 border-gray-800 sticky top-0">
+      <header className="flex items-center justify-between h-16 w-full bg-black z-20 shadow-[0px_4px_25px_0px_#0000000D] transition-all border-b border-gray-800 sticky top-0">
         <div className="flex flex-row justify-between lg:px-4 items-center py-4 w-full mx-auto">
           <Link href="/">
             <div className="flex flex-row items-center">
-              <div className="relative w-12 aspect-[3/2]">
+              <div className="relative w-12 aspect-3/2">
                 <Image
                   src={logo}
                   alt="icon logo"

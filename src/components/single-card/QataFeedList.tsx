@@ -1,4 +1,4 @@
-import { Qata } from "@/src/lib/_types";
+import { Qata } from "@/lib/_types";
 import QataCard from "./QataCard";
 
 interface QataFeedListProps {

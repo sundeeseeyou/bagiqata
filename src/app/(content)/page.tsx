@@ -3,8 +3,8 @@ import { mockQatas } from "@/lib/_mockQatas";
 
 export default function ContentPage() {
   return (
-    <main className="min-h-screen">
-      <div className="w-full mx-auto px-8">
+    <main className="w-[90svw]flex flex-col items-center justify-start grow">
+      <div className="mx-auto px-8">
         <QataFeedList qatas={mockQatas} />
       </div>
     </main>

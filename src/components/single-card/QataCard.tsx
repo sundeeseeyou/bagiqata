@@ -14,7 +14,7 @@ interface QataCardProps {
 
 export default function QataCard({ qata }: QataCardProps) {
   return (
-    <article className="card border-1 border-gray-800 shadow-white shadow-xs rounded-xl aspect-[3/4]">
+    <article className="card border-1 border-gray-800 shadow-white shadow-xs rounded-xl aspect-[3/4] overflow-hidden">
       {/* Top Section: Header + Content */}
       <div className="flex-1 flex flex-col min-h-0 relative">
         {/* Header: Author + Menu */}
@@ -86,7 +86,7 @@ export default function QataCard({ qata }: QataCardProps) {
               )}
             </div>
           ) : (
-            <blockquote className="text-base font-medium leading-relaxed italic overflow-y-auto max-h-full no-scrollbar">
+            <blockquote className="text-base font-medium leading-relaxed italic line-clamp-8">
               "{qata.content}"
             </blockquote>
           )}

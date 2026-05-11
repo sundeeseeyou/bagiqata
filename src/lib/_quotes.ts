@@ -1,5 +1,5 @@
 "use server";
 
-import { Qata } from "@/src/lib/_types";
+import { Qata } from "@/lib/_types";
 
 export async function getQuotes(): Promise<Qata[]> {}

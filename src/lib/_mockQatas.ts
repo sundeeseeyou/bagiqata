@@ -91,4 +91,64 @@ export const mockQatas: Qata[] = [
     shares: 41,
     imageUrl: undefined,
   },
+  {
+    id: 7,
+    content:
+      "Jangan pernah menyerah pada impianmu, karena mimpi adalah awal dari kesuksesan.",
+    author: {
+      name: "Ahmad Rizki",
+      username: "ahmadrizki",
+      avatar: undefined,
+    },
+    timestamp: new Date("2026-01-18T08:20:00"),
+    loves: 95,
+    quotes: 28,
+    shares: 41,
+    imageUrl: undefined,
+  },
+  {
+    id: 8,
+    content:
+      "Jangan pernah menyerah pada impianmu, karena mimpi adalah awal dari kesuksesan.",
+    author: {
+      name: "Ahmad Rizki",
+      username: "ahmadrizki",
+      avatar: undefined,
+    },
+    timestamp: new Date("2026-01-18T08:20:00"),
+    loves: 95,
+    quotes: 28,
+    shares: 41,
+    imageUrl: undefined,
+  },
+  {
+    id: 9,
+    content:
+      "Jangan pernah menyerah pada impianmu, karena mimpi adalah awal dari kesuksesan.",
+    author: {
+      name: "Ahmad Rizki",
+      username: "ahmadrizki",
+      avatar: undefined,
+    },
+    timestamp: new Date("2026-01-18T08:20:00"),
+    loves: 95,
+    quotes: 28,
+    shares: 41,
+    imageUrl: undefined,
+  },
+  {
+    id: 10,
+    content:
+      "Jangan pernah menyerah pada impianmu, karena mimpi adalah awal dari kesuksesan.",
+    author: {
+      name: "Ahmad Rizki",
+      username: "ahmadrizki",
+      avatar: undefined,
+    },
+    timestamp: new Date("2026-01-18T08:20:00"),
+    loves: 95,
+    quotes: 28,
+    shares: 41,
+    imageUrl: undefined,
+  },
 ];
